@@ -1,0 +1,90 @@
+project:
+  name: f1_Predictor
+  random_state: 42
+paths:
+  raw_data_dir: data/raw
+  raw_data_fallbacks: [data_f1]
+  external_data_dir: data/external
+  processed_data_dir: data/processed
+  predictions_dir: data/predictions
+  models_dir: models
+  reports_dir: reports
+data:
+  min_season: 2014
+  train_seasons: [2014, 2023]
+  validation_season: 2024
+  test_season: 2025
+  live_season: 2026
+  kaggle_until_season: 2024
+  use_jolpica_2025: true
+  use_jolpica_2026: true
+  use_2026_for_finetuning: false
+jolpica:
+  base_url: "https://api.jolpi.ca/ergast/f1"
+  seasons_to_fetch: [2025, 2026]
+  timeout: 30
+  limit: 1000
+  save_raw_json: false
+features:
+  rolling_windows: [3, 5, 10]
+  use_teammate_features: true
+  use_circuit_features: true
+  use_reliability_features: true
+  use_relative_strength_features: true
+sample_weights:
+  enabled: true
+  weights:
+    historical_2014_2021: 0.5
+    recent_2022_2023: 0.8
+    validation_test_2024_2025: 1.0
+    live_2026: 2.0
+models:
+  retrain_after_jolpica_integration: true
+  top10: &classifier
+    type: xgboost_classifier
+    n_estimators: 500
+    learning_rate: 0.03
+    max_depth: 3
+    subsample: 0.8
+    colsample_bytree: 0.8
+    eval_metric: logloss
+  podium:
+    <<: *classifier
+    auto_scale_pos_weight: true
+  points:
+    type: xgboost_regressor
+    n_estimators: 500
+    learning_rate: 0.03
+    max_depth: 3
+    subsample: 0.8
+    colsample_bytree: 0.8
+    objective: reg:squarederror
+prediction:
+  as_of_date: "2026-07-12"
+  top_n: 10
+  auto_detect_prediction_mode: true
+  allow_manual_context_adjustment: false
+  model_version: "v1_live_2026_cutoff_2026-07-12"
+live_training:
+  include_completed_2026: true
+  as_of_date: "2026-07-12"
+  regulation_boost_2026: 2.0
+  recency_weighting: true
+tuning:
+  enabled: true
+  method: optuna
+  n_trials: 60
+  early_stopping_rounds: 75
+  temporal_cv: true
+  n_jobs: -1
+ranking:
+  enabled: true
+  objective: rank:pairwise
+  top_k: 10
+dashboard:
+  title: "F1 2026 Race Predictor"
+  default_page: "Race Predictor"
+  show_shap: true
+  allow_csv_download: true
+calendar:
+  sprint_rounds_2026: [2, 4, 5, 9, 12, 16]

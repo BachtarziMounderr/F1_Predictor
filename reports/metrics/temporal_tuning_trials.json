@@ -1,0 +1,434 @@
+[
+  {
+    "task": "top10",
+    "params": {
+      "n_estimators": 300,
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "subsample": 0.8,
+      "colsample_bytree": 0.8
+    },
+    "mean_score": 0.8623169789596069,
+    "fold_scores": [
+      0.828477508650519,
+      0.8484504132231405,
+      0.8554132231404957,
+      0.8702479338842976,
+      0.9089958158995817
+    ]
+  },
+  {
+    "task": "top10",
+    "params": {
+      "n_estimators": 300,
+      "learning_rate": 0.03,
+      "max_depth": 4,
+      "subsample": 0.8,
+      "colsample_bytree": 0.8
+    },
+    "mean_score": 0.8589868349424294,
+    "fold_scores": [
+      0.8203806228373702,
+      0.8481818181818181,
+      0.8508471074380165,
+      0.8687603305785123,
+      0.9067642956764296
+    ]
+  },
+  {
+    "task": "top10",
+    "params": {
+      "n_estimators": 300,
+      "learning_rate": 0.06,
+      "max_depth": 3,
+      "subsample": 0.8,
+      "colsample_bytree": 0.8
+    },
+    "mean_score": 0.8576844287227423,
+    "fold_scores": [
+      0.8188581314878893,
+      0.8397727272727272,
+      0.8518801652892561,
+      0.8686363636363637,
+      0.9092747559274755
+    ]
+  },
+  {
+    "task": "top10",
+    "params": {
+      "n_estimators": 300,
+      "learning_rate": 0.06,
+      "max_depth": 4,
+      "subsample": 0.8,
+      "colsample_bytree": 0.8
+    },
+    "mean_score": 0.8545628574270584,
+    "fold_scores": [
+      0.8192387543252594,
+      0.8393595041322315,
+      0.8502479338842975,
+      0.8666528925619834,
+      0.8973152022315203
+    ]
+  },
+  {
+    "task": "top10",
+    "params": {
+      "n_estimators": 500,
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "subsample": 0.8,
+      "colsample_bytree": 0.8
+    },
+    "mean_score": 0.8597591816828558,
+    "fold_scores": [
+      0.8254671280276816,
+      0.8418181818181818,
+      0.8543388429752067,
+      0.8694834710743802,
+      0.9076882845188284
+    ]
+  },
+  {
+    "task": "top10",
+    "params": {
+      "n_estimators": 500,
+      "learning_rate": 0.03,
+      "max_depth": 4,
+      "subsample": 0.8,
+      "colsample_bytree": 0.8
+    },
+    "mean_score": 0.8572926842196512,
+    "fold_scores": [
+      0.818719723183391,
+      0.8428512396694215,
+      0.8510123966942149,
+      0.868388429752066,
+      0.9054916317991633
+    ]
+  },
+  {
+    "task": "top10",
+    "params": {
+      "n_estimators": 500,
+      "learning_rate": 0.06,
+      "max_depth": 3,
+      "subsample": 0.8,
+      "colsample_bytree": 0.8
+    },
+    "mean_score": 0.8505658482011542,
+    "fold_scores": [
+      0.8062975778546713,
+      0.8317355371900825,
+      0.8484710743801653,
+      0.8633264462809918,
+      0.9029986052998604
+    ]
+  },
+  {
+    "task": "top10",
+    "params": {
+      "n_estimators": 500,
+      "learning_rate": 0.06,
+      "max_depth": 4,
+      "subsample": 0.8,
+      "colsample_bytree": 0.8
+    },
+    "mean_score": 0.8504764363917785,
+    "fold_scores": [
+      0.8156747404844291,
+      0.8306818181818182,
+      0.8510537190082643,
+      0.861404958677686,
+      0.8935669456066945
+    ]
+  },
+  {
+    "task": "podium",
+    "params": {
+      "n_estimators": 300,
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "subsample": 0.8,
+      "colsample_bytree": 0.8
+    },
+    "mean_score": 0.7062342092041807,
+    "fold_scores": [
+      0.7144529602655789,
+      0.7702789252607928,
+      0.691677448799993,
+      0.7078251276235706,
+      0.6469365840709678
+    ]
+  },
+  {
+    "task": "podium",
+    "params": {
+      "n_estimators": 300,
+      "learning_rate": 0.03,
+      "max_depth": 4,
+      "subsample": 0.8,
+      "colsample_bytree": 0.8
+    },
+    "mean_score": 0.6840981400237045,
+    "fold_scores": [
+      0.7101532688456277,
+      0.7501032100837236,
+      0.6655613624790083,
+      0.6712255249839372,
+      0.6234473337262258
+    ]
+  },
+  {
+    "task": "podium",
+    "params": {
+      "n_estimators": 300,
+      "learning_rate": 0.06,
+      "max_depth": 3,
+      "subsample": 0.8,
+      "colsample_bytree": 0.8
+    },
+    "mean_score": 0.6843714967561405,
+    "fold_scores": [
+      0.7108992734010305,
+      0.7607867942188574,
+      0.6825554619334653,
+      0.6649529271733745,
+      0.6026630270539751
+    ]
+  },
+  {
+    "task": "podium",
+    "params": {
+      "n_estimators": 300,
+      "learning_rate": 0.06,
+      "max_depth": 4,
+      "subsample": 0.8,
+      "colsample_bytree": 0.8
+    },
+    "mean_score": 0.672628995287487,
+    "fold_scores": [
+      0.7090159048827507,
+      0.7346918644116454,
+      0.6531193355119612,
+      0.6643372126621773,
+      0.6019806589689003
+    ]
+  },
+  {
+    "task": "podium",
+    "params": {
+      "n_estimators": 500,
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "subsample": 0.8,
+      "colsample_bytree": 0.8
+    },
+    "mean_score": 0.6936697130884067,
+    "fold_scores": [
+      0.7102702329029127,
+      0.7615047960559311,
+      0.6991656616821968,
+      0.6737975667584238,
+      0.6236103080425696
+    ]
+  },
+  {
+    "task": "podium",
+    "params": {
+      "n_estimators": 500,
+      "learning_rate": 0.03,
+      "max_depth": 4,
+      "subsample": 0.8,
+      "colsample_bytree": 0.8
+    },
+    "mean_score": 0.6766969973251861,
+    "fold_scores": [
+      0.7057667107504852,
+      0.7482290028163121,
+      0.6731829137018036,
+      0.6529453434967646,
+      0.6033610158605647
+    ]
+  },
+  {
+    "task": "podium",
+    "params": {
+      "n_estimators": 500,
+      "learning_rate": 0.06,
+      "max_depth": 3,
+      "subsample": 0.8,
+      "colsample_bytree": 0.8
+    },
+    "mean_score": 0.6773094338080619,
+    "fold_scores": [
+      0.7062969510044768,
+      0.7562985364740794,
+      0.6881493972109198,
+      0.6301521351146209,
+      0.6056501492362126
+    ]
+  },
+  {
+    "task": "podium",
+    "params": {
+      "n_estimators": 500,
+      "learning_rate": 0.06,
+      "max_depth": 4,
+      "subsample": 0.8,
+      "colsample_bytree": 0.8
+    },
+    "mean_score": 0.6671576549203374,
+    "fold_scores": [
+      0.7101707008416062,
+      0.7239398734176551,
+      0.6484880402497374,
+      0.6579502055525084,
+      0.59523945454018
+    ]
+  },
+  {
+    "task": "points",
+    "params": {
+      "n_estimators": 300,
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "subsample": 0.8,
+      "colsample_bytree": 0.8
+    },
+    "mean_score": -2.9927092455138053,
+    "fold_scores": [
+      -3.499589384948451,
+      -3.0110130812390707,
+      -2.95248378673145,
+      -2.8666422768390145,
+      -2.6338176978110397
+    ]
+  },
+  {
+    "task": "points",
+    "params": {
+      "n_estimators": 300,
+      "learning_rate": 0.03,
+      "max_depth": 4,
+      "subsample": 0.8,
+      "colsample_bytree": 0.8
+    },
+    "mean_score": -3.026212499022452,
+    "fold_scores": [
+      -3.5355240296134176,
+      -3.075727385927034,
+      -2.982327810264277,
+      -2.877822415725413,
+      -2.6596608535821176
+    ]
+  },
+  {
+    "task": "points",
+    "params": {
+      "n_estimators": 300,
+      "learning_rate": 0.06,
+      "max_depth": 3,
+      "subsample": 0.8,
+      "colsample_bytree": 0.8
+    },
+    "mean_score": -3.05504781494095,
+    "fold_scores": [
+      -3.5239049475749624,
+      -3.072554818202149,
+      -3.0525315048776314,
+      -2.9460059633023445,
+      -2.6802418407476614
+    ]
+  },
+  {
+    "task": "points",
+    "params": {
+      "n_estimators": 300,
+      "learning_rate": 0.06,
+      "max_depth": 4,
+      "subsample": 0.8,
+      "colsample_bytree": 0.8
+    },
+    "mean_score": -3.1132624022222437,
+    "fold_scores": [
+      -3.5691300890353674,
+      -3.182582254937469,
+      -3.0917911429931833,
+      -2.9911810829452325,
+      -2.731627441199967
+    ]
+  },
+  {
+    "task": "points",
+    "params": {
+      "n_estimators": 500,
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "subsample": 0.8,
+      "colsample_bytree": 0.8
+    },
+    "mean_score": -3.021452676355646,
+    "fold_scores": [
+      -3.5246840926530933,
+      -3.080538222921843,
+      -2.9834112947806717,
+      -2.8760826031105933,
+      -2.6425471683120305
+    ]
+  },
+  {
+    "task": "points",
+    "params": {
+      "n_estimators": 500,
+      "learning_rate": 0.03,
+      "max_depth": 4,
+      "subsample": 0.8,
+      "colsample_bytree": 0.8
+    },
+    "mean_score": -3.0731512523139983,
+    "fold_scores": [
+      -3.61078791712986,
+      -3.1163394103186546,
+      -3.028986132000996,
+      -2.919026021501155,
+      -2.6906167806193255
+    ]
+  },
+  {
+    "task": "points",
+    "params": {
+      "n_estimators": 500,
+      "learning_rate": 0.06,
+      "max_depth": 3,
+      "subsample": 0.8,
+      "colsample_bytree": 0.8
+    },
+    "mean_score": -3.095864159631051,
+    "fold_scores": [
+      -3.544367098726113,
+      -3.1392938015829053,
+      -3.098472855165495,
+      -2.982806178876622,
+      -2.7143808638041214
+    ]
+  },
+  {
+    "task": "points",
+    "params": {
+      "n_estimators": 500,
+      "learning_rate": 0.06,
+      "max_depth": 4,
+      "subsample": 0.8,
+      "colsample_bytree": 0.8
+    },
+    "mean_score": -3.173379755301842,
+    "fold_scores": [
+      -3.6346774327678277,
+      -3.2429595020261,
+      -3.1687961784593592,
+      -3.0539474861140743,
+      -2.7665181771418497
+    ]
+  }
+]

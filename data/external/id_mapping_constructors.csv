@@ -1,0 +1,13 @@
+entity_type,jolpica_id,jolpica_name,internal_id,internal_ref,match_method
+constructor,mclaren,McLaren,1,mclaren,ref_or_normalized_name
+constructor,red_bull,Red Bull,9,red_bull,ref_or_normalized_name
+constructor,mercedes,Mercedes,131,mercedes,ref_or_normalized_name
+constructor,williams,Williams,3,williams,ref_or_normalized_name
+constructor,aston_martin,Aston Martin,117,aston_martin,ref_or_normalized_name
+constructor,sauber,Sauber,15,sauber,ref_or_normalized_name
+constructor,ferrari,Ferrari,6,ferrari,ref_or_normalized_name
+constructor,alpine,Alpine F1 Team,214,alpine,ref_or_normalized_name
+constructor,rb,RB F1 Team,215,rb,ref_or_normalized_name
+constructor,haas,Haas F1 Team,210,haas,ref_or_normalized_name
+constructor,audi,Audi,,,unmapped
+constructor,cadillac,Cadillac F1 Team,,,unmapped

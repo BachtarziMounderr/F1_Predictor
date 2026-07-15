@@ -1,0 +1,25 @@
+entity_type,jolpica_id,jolpica_name,internal_id,internal_ref,match_method
+driver,norris,Lando Norris,846,norris,ref_or_normalized_name
+driver,max_verstappen,Max Verstappen,830,max_verstappen,ref_or_normalized_name
+driver,russell,George Russell,847,russell,ref_or_normalized_name
+driver,antonelli,Andrea Kimi Antonelli,,,unmapped
+driver,albon,Alexander Albon,848,albon,ref_or_normalized_name
+driver,stroll,Lance Stroll,840,stroll,ref_or_normalized_name
+driver,hulkenberg,Nico Hülkenberg,807,hulkenberg,ref_or_normalized_name
+driver,leclerc,Charles Leclerc,844,leclerc,ref_or_normalized_name
+driver,piastri,Oscar Piastri,857,piastri,ref_or_normalized_name
+driver,hamilton,Lewis Hamilton,1,hamilton,ref_or_normalized_name
+driver,gasly,Pierre Gasly,842,gasly,ref_or_normalized_name
+driver,tsunoda,Yuki Tsunoda,852,tsunoda,ref_or_normalized_name
+driver,ocon,Esteban Ocon,839,ocon,ref_or_normalized_name
+driver,bearman,Oliver Bearman,860,bearman,ref_or_normalized_name
+driver,lawson,Liam Lawson,859,lawson,ref_or_normalized_name
+driver,bortoleto,Gabriel Bortoleto,,,unmapped
+driver,alonso,Fernando Alonso,4,alonso,ref_or_normalized_name
+driver,sainz,Carlos Sainz,832,sainz,ref_or_normalized_name
+driver,doohan,Jack Doohan,862,doohan,ref_or_normalized_name
+driver,hadjar,Isack Hadjar,,,unmapped
+driver,colapinto,Franco Colapinto,861,colapinto,ref_or_normalized_name
+driver,arvid_lindblad,Arvid Lindblad,,,unmapped
+driver,perez,Sergio Pérez,815,perez,ref_or_normalized_name
+driver,bottas,Valtteri Bottas,822,bottas,ref_or_normalized_name

@@ -1,0 +1,8 @@
+entity_type,jolpica_id,jolpica_name,internal_id,internal_ref,match_method
+driver,antonelli,Andrea Kimi Antonelli,,,unmapped
+driver,bortoleto,Gabriel Bortoleto,,,unmapped
+driver,hadjar,Isack Hadjar,,,unmapped
+driver,arvid_lindblad,Arvid Lindblad,,,unmapped
+constructor,audi,Audi,,,unmapped
+constructor,cadillac,Cadillac F1 Team,,,unmapped
+circuit,madring,Madring,,,unmapped

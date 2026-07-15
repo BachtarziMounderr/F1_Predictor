@@ -1,0 +1,52 @@
+# Python cache and local environments
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+pytest-cache-files-*/
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# IDE / OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.qodo/
+.agents/
+
+# Large or reproducible data artifacts
+data_f1/
+data/raw/*
+data/processed/*.csv
+data/predictions/*.csv
+data/external/jolpica/
+data/external/jolpica_*.csv
+
+# Keep directory placeholders and lightweight mapping/context files
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/predictions/.gitkeep
+!data/external/.gitkeep
+!data/external/id_mapping_*.csv
+!data/external/unmapped_jolpica_entities.csv
+!data/external/2026_context_adjustments.csv
+
+# Trained model binaries are reproducible and too heavy for the repository
+models/**/*.pkl
+models/**/preprocessing_pipeline.pkl
+models/**/.gitkeep
+
+# Reports: keep lightweight audit/metric tables, exclude generated figures
+reports/figures/*
+!reports/figures/.gitkeep
+
+# Notebooks: keep only the portfolio notebook with executed outputs
+notebooks/*.ipynb
+!notebooks/F1_Predictor_End_to_End_Portfolio_Notebook.ipynb
+
+# Optional local exports
+*.log
+*.tmp
