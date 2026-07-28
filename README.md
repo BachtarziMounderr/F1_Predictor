@@ -1,4 +1,4 @@
-# F1 Predictor
+# f1-race-predictor
 
 End-to-end Formula 1 race outcome prediction project built as a Data Science / Machine Learning portfolio case study.
 
